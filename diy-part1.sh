@@ -15,3 +15,5 @@
 
 # Add a feed source
 #sed -i '$a src-git lienol https://github.com/Lienol/openwrt-package' feeds.conf.default
+rm -rf luci-theme-argon
+it clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git
